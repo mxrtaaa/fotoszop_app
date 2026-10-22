@@ -1,0 +1,36 @@
+# Środowiska wirtualne
+venv/
+.venv/
+env/
+ENV/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Zmienne środowiskowe i klucze API
+.env
+*.env
+.env.local
+
+# Pliki systemowe
+#.DS_Store - bo chyba wszyscy na windowsie jesteśmy ???
+Thumbs.db
+
+
+# Konfiguracje edytorów kodu (IDE)
+.idea/
+.vscode/
+
+# Dane, modele i duże pliki graficzne
+/data/*
+# ale trzeba będzie chyba dodać wyjątki dla mniejszych części
+
+# Ignorujemy przypadkowe zrzuty ekranu i inne grafiki w głównym folderze
+*.jpg
+*.jpeg
+*.png
+*.bmp
