@@ -1,7 +1,25 @@
-import PySide6.QtCore
+import sys
 
-# Prints PySide6 version
-print(PySide6.__version__)
+from PySide6.QtCore import QSize, Qt
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 
-# Prints the Qt version used to compile PySide6
-print(PySide6.QtCore.__version__)
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Photoszop")
+
+        button = QPushButton("Press Me!")
+
+        self.setFixedSize(QSize(400, 300))
+
+        self.setCentralWidget(button)
+
+
+app = QApplication(sys.argv)
+
+window = MainWindow()
+window.show()
+
+app.exec()
