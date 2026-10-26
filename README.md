@@ -5,7 +5,7 @@ To run the project locally, follow the steps below. We recommend using a virtual
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/mxrtaaa/fotoszop_app.git](https://github.com/mxrtaaa/fotoszop_app.git)
+git clone https://github.com/mxrtaaa/fotoszop_app.git
 cd fotoszop_app
 ```
 
